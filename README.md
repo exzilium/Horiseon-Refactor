@@ -7,7 +7,7 @@ Refactor the HTML and CSS for the Horiseon Social website for improved accessibi
 
 ## Usage
 
-Navigate to the website on Github Pages.
+Navigate to the [website](https://exzilium.github.io/Horiseon-Refactor/) on Github Pages.
 
 
 ![screenshot of Horiseon website](assets/images/screenshot_readme.png)
