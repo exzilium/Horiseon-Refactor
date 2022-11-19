@@ -8,6 +8,10 @@ body {
   background-color: #d9dcd6;
 }
 
+/* Styles for header logo text and navigation links */
+
+/* Logo */
+
 header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -24,6 +28,8 @@ header h1 {
 header h1 .seo {
   color: #d9dcd6;
 }
+
+/* Navigation links */
 
 header nav {
   padding-top: 15px;
@@ -42,6 +48,8 @@ header nav ul li {
   margin-left: 25px;
 }
 
+/* Styles for all links and paragraphs */
+
 a {
   color: #ffffff;
   text-decoration: none;
@@ -51,6 +59,8 @@ p {
   font-size: 16px;
 }
 
+/* Masthead image */
+
 .hero {
   height: 800px;
   width: 100%;
@@ -59,6 +69,8 @@ p {
   background-size: cover;
   background-position: center;
 }
+
+/* Classes to designate left and right. Content on left, benefits on right */
 
 .float-left {
   float: left;
@@ -70,47 +82,15 @@ p {
   margin-left: 25px;
 }
 
+/* Main content styles */
+
 .content {
   width: 75%;
   display: inline-block;
   margin-left: 20px;
 }
 
-.benefits {
-  margin-right: 20px;
-  padding: 20px;
-  clear: both;
-  float: right;
-  width: 20%;
-  height: 100%;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  background-color: #2589bd;
-}
-/* Consolidated benefits section styles */
-
-.benefits section {
-  margin-bottom: 32px;
-  color: #ffffff;
-}
-
-/* Consolidated benefits h2 styles.
-Font size specified here to match previous h3 font-size after changing to h2 */
-
-.benefits h2 {
-  margin-bottom: 10px;
-  text-align: center;
-  font-size: 1.17em;
-}
-
-/* Consolidated benefit image styles */
-
-.benefits img {
-  display: block;
-  margin: 10px auto;
-  max-width: 150px;
-}
-
-/* Conslidated content section styles */
+/* Content styles to create blue boxes with white text for each section */
 
 .content section {
   margin-bottom: 20px;
@@ -121,18 +101,57 @@ Font size specified here to match previous h3 font-size after changing to h2 */
   color: #ffffff;
 }
 
-/* Consolidated content section image styles */
+/* Content image styles within sections */
 
 .content img {
   max-height: 200px;
 }
 
-/* Consolidated content h2 styles */
+/* Content headers */
 
 .content h2 {
   margin-bottom: 20px;
   font-size: 36px;
 }
+
+/* Benefits aside section style to create light blue box with white text on the right */
+
+.benefits {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
+  color: #ffffff;
+}
+
+/* Benefits aside section styles to create space between each  */
+
+.benefits section {
+  margin-bottom: 32px;
+}
+
+/* Benefits aside header styles to center the text in the section, create space underneath.
+Font size specified here to match previous h3 font-size after changing to h2 in html to follow accessibility guidelines */
+
+.benefits h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 1.17em;
+}
+
+/* Benefits aside image styles to create space on top and bottom between header and p text */
+
+.benefits img {
+  display: block;
+  margin: 10px auto;
+  max-width: 150px;
+}
+
+/* Footer centered with specific font */
 
 footer {
   padding: 30px;
