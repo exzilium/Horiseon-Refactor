@@ -4,8 +4,21 @@
   margin: 0;
 }
 
+/* Background color */
+
 body {
   background-color: #d9dcd6;
+}
+
+/* Styles for all links and paragraphs */
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+p {
+  font-size: 16px;
 }
 
 /* Styles for header logo text and navigation links */
@@ -48,18 +61,7 @@ header nav ul li {
   margin-left: 25px;
 }
 
-/* Styles for all links and paragraphs */
-
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-p {
-  font-size: 16px;
-}
-
-/* Masthead image */
+/* Masthead image set in CSS to take advantage of image scaling as background image */
 
 .hero {
   height: 800px;
@@ -70,7 +72,7 @@ p {
   background-position: center;
 }
 
-/* Classes to designate left and right. Content on left, benefits on right */
+/* Classes to set main content sections on left and benefits sections on right */
 
 .float-left {
   float: left;
@@ -82,7 +84,7 @@ p {
   margin-left: 25px;
 }
 
-/* Main content styles */
+/* Main content section styles */
 
 .content {
   width: 75%;
@@ -90,7 +92,7 @@ p {
   margin-left: 20px;
 }
 
-/* Content styles to create blue boxes with white text for each section */
+/* Main content styles to create blue boxes with white text for each section */
 
 .content section {
   margin-bottom: 20px;
@@ -101,13 +103,13 @@ p {
   color: #ffffff;
 }
 
-/* Content image styles within sections */
+/* Main content image styles within sections */
 
 .content img {
   max-height: 200px;
 }
 
-/* Content headers */
+/* Main content headers */
 
 .content h2 {
   margin-bottom: 20px;
